@@ -1,4 +1,4 @@
-# 🎵 SpotifyStats — Self-Hosted Spotify Statistics
+# SpotifyStats — Self-Hosted Spotify Statistics
 
 Ein selbst-gehostetes Spotify-Tracking-Dashboard. Verfolge was du hörst und entdecke detaillierte Statistiken über dein Musikverhalten.
 
@@ -6,15 +6,15 @@ Ein selbst-gehostetes Spotify-Tracking-Dashboard. Verfolge was du hörst und ent
 
 ## ✨ Features
 
-- 📊 **Dashboard** — Übersicht mit Statistiken und Timeline-Chart
-- 🎵 **Top Tracks** — Deine meistgehörten Songs mit Balkendiagramm
-- 🎤 **Top Artists** — Lieblingsartisten mit Genre-Tags  
-- 💿 **Top Alben** — Album-Grid mit Cover-Artwork
-- 🎸 **Genres** — Pie-Chart und Balkendiagramm deiner Genres
-- 📋 **Hörverlauf** — Paginierte Liste aller gehörten Songs
-- ⚙️ **Einstellungen** — Zeitzone, manueller Resync, Admin-Panel
-- 🌙 **Dark Mode** — Modernes, dunkles Spotify-inspiriertes Design
-- 🔄 **Auto-Polling** — Tracks werden alle 3 Minuten automatisch abgerufen
+- **Dashboard** — Übersicht mit Statistiken und Timeline-Chart
+- **Top Tracks** — Deine meistgehörten Songs mit Balkendiagramm
+- **Top Artists** — Lieblingsartisten mit Genre-Tags  
+- **Top Alben** — Album-Grid mit Cover-Artwork
+- **Genres** — Pie-Chart und Balkendiagramm deiner Genres
+- **Hörverlauf** — Paginierte Liste aller gehörten Songs
+- **Einstellungen** — Zeitzone, manueller Resync, Admin-Panel
+- **Dark Mode** — Modernes, dunkles Spotify-inspiriertes Design
+- **Auto-Polling** — Tracks werden alle 3 Minuten automatisch abgerufen
 
 ## 🚀 Setup
 
@@ -55,7 +55,7 @@ docker compose up -d
 
 **Der erste Benutzer wird automatisch zum Admin.**
 
-## 🔧 Erweiterte Konfiguration
+## Erweiterte Konfiguration
 
 ### Anderer Port
 
@@ -104,7 +104,7 @@ spotifystats/
 └── .env.example
 ```
 
-## 🔐 Sicherheit
+## Sicherheit
 
 - JWT-Auth (HttpOnly Cookie, 7 Tage)
 - Spotify-Tokens werden nur serverseitig gespeichert
@@ -114,7 +114,7 @@ spotifystats/
 - Helmet.js Security Headers
 - Non-root Docker User
 
-## 🛠 Maintenance
+## Maintenance
 
 ```bash
 # Logs ansehen
