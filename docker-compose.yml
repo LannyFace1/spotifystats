@@ -3,7 +3,7 @@ version: "3.9"
 services:
   # MongoDB database
   mongo:
-    image: mongo:7-jammy
+    image: mongo:4.4
     container_name: spotifystats_mongo
     restart: unless-stopped
     volumes:
