@@ -2,7 +2,8 @@
 
 Ein selbst-gehostetes Spotify-Tracking-Dashboard. Verfolge was du hörst und entdecke detaillierte Statistiken über dein Musikverhalten.
 
-![Screenshot](https://via.placeholder.com/800x400/121212/1DB954?text=SpotifyStats+Dashboard)
+![Screenshot](<img width="1852" height="796" alt="image" src="https://github.com/user-attachments/assets/29176a29-0726-4687-b697-d475ff45cc94" />
+)
 
 ## ✨ Features
 
