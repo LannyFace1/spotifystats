@@ -12,7 +12,7 @@ services:
       - internal
     # MongoDB only accessible internally - never exposed to host
     healthcheck:
-      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      test: ["CMD", "mongo", "--eval", "db.adminCommand('ping')"]
       interval: 30s
       timeout: 10s
       retries: 5
