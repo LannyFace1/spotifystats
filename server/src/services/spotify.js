@@ -54,7 +54,7 @@ async function spotifyGet(user, endpoint, params = {}) {
 async function getRecentlyPlayed(user, limit = 50, after = null) {
   const params = { limit };
   if (after) params.after = after;
-  return spotifyGet(user, '/me/recently-played', params);
+  return spotifyGet(user, '/me/player/recently-played', params);
 }
 
 async function getArtistDetails(user, artistId) {
